@@ -1,0 +1,9 @@
+<a routerLink="add">Add em outra tela</a>
+
+<table>
+    <tr *ngFor="let t of todos">
+        <td>{{ t.title }}</td>
+    </tr>
+</table>
+
+<button (click)="add()">Add por aqui</button>
